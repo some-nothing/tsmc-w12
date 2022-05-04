@@ -15,10 +15,7 @@
         "tsConfig": "apps/bowling/tsconfig.app.json",
         "assets": ["apps/bowling/src/favicon.ico", "apps/bowling/src/assets"],
         "styles": ["apps/bowling/src/styles.css"],
-        "scripts": [],
-        "coverage": true,
-        "outputFile": "result.json",
-        "json": true
+        "scripts": []
       },
       "configurations": {
         "production": {
@@ -82,7 +79,10 @@
       "outputs": ["coverage/apps/bowling"],
       "options": {
         "jestConfig": "apps/bowling/jest.config.ts",
-        "passWithNoTests": true
+        "passWithNoTests": true,
+        "coverage": true,
+        "outputFile": "result.json",
+        "json": true
       }
     }
   },
